@@ -1,1 +1,21 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Student List</h1>
+        <div class="box">
+            <button  onclick="showStudents()" class="button" >Show students</button>
+             <button class="button" onclick="sortName()">Sort by Name</button>
+              <button class="button" onclick="sortAge()">Sort by Age</button>
+        </div>
+        <ul id="studentList" style="list-style-type:none;"></ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
