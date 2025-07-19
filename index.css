@@ -1,0 +1,16 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height:60vh;
+}
+.button{
+    background-color: rgb(12, 158, 216);
+    padding:10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    border-color:rgb(12, 158, 216) ;
+    font-family: "Roboto";
+    font-size: 20px;
+}
